@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-
+from wiki.views import PageDetailView, PageListView
 """
 CHALLENGES:
     1. Uncomment the path() for the wiki app below. Use it to direct any request (except `/admin` URLs)
